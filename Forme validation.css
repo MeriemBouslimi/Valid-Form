@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #303655;
+  padding: 0 600px;
+}
+#formulaire {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.submit , .rest {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #313250;
+  border:0.5px #232538 solid;
+  color: aqua;
+}
+.submit:hover{
+  background-color: #13141f;
+  color: white;
+}
+.rest:hover{
+  background-color: #13141f;
+  color: white;
+}
+.title {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+input {
+  color: white;
+  background-color: #313250;
+  border:0.5px #232538 solid;
+  min-height: 30px;
+}
+.cmt {
+min-height: 80px;
+}
